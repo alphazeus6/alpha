@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link rel="stylesheet" href="css/styleh.css">
+	<link rel="stylesheet" href="css/stylew3.css">
+</head>
+<body>
+	<header>
+	<div class ="container">
+		<img src="resources/bd/logoh.png" class="logo" alt="logo">
+		<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="bugatti.html" id="rr">Bugatti</a></li>
+			<li><a href="ferrari.html">Ferrari</a></li>
+
+		</ul>
+		</nav>
+	</div>
+	
+	</header>	
+	
+	
+	
+	
+	<section id="wrapper" class="skewed">
+		<div class="layer bottom">
+	    	<div class="content-wrap">
+				<div class="content-body">
+		
+				</div>
+				<img src="resources/bd/hb2.png" alt="Bugatti Divo">
+			</div>
+		</div>
+		
+		<div class="layer top">
+	    	<div class="content-wrap">
+				<div class="content-body">
+					
+				</div>
+				<img src="resources/bd/Hb1.png" alt="Bugatti Chiron">
+			</div>
+		</div>
+		<div class="handle"></div>
+	</section>
+	<script src="JS/main.js"></script>
+	<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT US</span></h5>
+    <p><i>Patricia Garcia</i>, founder of Rival, started her company with the idea contributing to her brothers intense interest in cars. Comparisons between cars is a great way to inform the audience about specific cars in the market, more specifically, luxury cars. </p>
+    <p>We use the most trusted sources to obtain the information that is on this website.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Rival offers the best comparisons ive ever seen. They include a lot of information and a lot of details"</i></p>
+      <p>-Ryan Martin, Cars.com.</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+  
+    <p><span class="w3-tag">FYI!</span>We look through each and every submission to ensure viewer satisfaction.</p>
+    <p><strong>Please</strong> sumbit your thoughts, opinions, and suggestions about the related topics.</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2019-05-10T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+	
+<footer>
+	<div class="middle">
+	<a href="#">
+		<i class="fab fa-facebook-f"></i>
+	</a>
+		<a href="#">
+		<i class="fab fa-google"></i>
+	</a>
+	<a href="#">
+		<i class="fab fa-instagram"></i>
+	</a>
+	</div>
+</footer>
+</body>
+</html>
+
+
